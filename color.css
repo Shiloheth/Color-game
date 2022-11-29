@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  margin: 0;
+  height: 100vh;
+}
+
+.abc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  background-color: black;
+  height: 280px;
+  width: 280px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+button {
+  height: 30px;
+  width: 90px;
+  vertical-align: top;
+  margin-bottom: 10px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 100;
+}
+
+.selection {
+  display: flex;
+  justify-content: center;
+  font-family: "Luckiest Guy", cursive;
+  color: black;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "Luckiest Guy", cursive;
+  color: black;
+}
